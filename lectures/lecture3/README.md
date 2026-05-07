@@ -90,9 +90,11 @@ __
 
 ## VPC品質確認
 
-1. **Pains ↔ Pain Relievers / Gains ↔ Gain Creators が整合していそうですか?**(Fit確認)
-2. 画像から読み取れなかった VPC 要素があれば、補足を聞いてください
-3. バグリストが20個未満の場合は「20個未満だと差し戻しの可能性があります。続けますか?」と確認
+1. **どのバグを VPC のシーン(顧客像)に選びましたか?**(バグリスト20個の中から1つ。番号で答えてもらう)
+   → そのバグ行に **★** を追記して bug-list.md を更新(例: `5. ★ 朝7時の電車が混みすぎて…`)
+2. **Pains ↔ Pain Relievers / Gains ↔ Gain Creators が整合していそうですか?**(Fit確認)
+3. 画像から読み取れなかった VPC 要素があれば、補足を聞いてください
+4. バグリストが20個未満の場合は「20個未満だと差し戻しの可能性があります。続けますか?」と確認
 
 → VPC をもっと深めたいなら「AI大学講師(Discord配布URL)に壁打ちしてみてくださいね」と一言添えて
 
@@ -114,7 +116,7 @@ __
 # 編集対象
 
 - `lectures/lecture3/README.md`(Discord ID・初期プロト欄・提出ステータスチェックを反映)
-- `lectures/lecture3/bug-list.md`(20個のバグリスト)
+- `lectures/lecture3/bug-list.md`(20個のバグリスト + 選んだバグに **★** を追記)
 - `lectures/lecture3/vpc-v1.md`(VPC v1 / 画像埋め込み)
 - `assets/vpc-v1.png`(VPC スクショ保存場所)
 
